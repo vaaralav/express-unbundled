@@ -1,0 +1,28 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "prettier",
+    "prettier/react",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "plugins": ["react", "prettier"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+    "React": false,
+    "ReactDOM": false
+  },
+  "settings": {
+    "react": {
+      "version": "16.5.2"
+    }
+  }
+}
